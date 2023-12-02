@@ -1,0 +1,69 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: #025a56;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/11/Image-Comics-Line-Up.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff6347; /* Tomato Red */
+}
+
+button {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4caf50; /* Green */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #87ceeb; /* Sky Blue */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}
